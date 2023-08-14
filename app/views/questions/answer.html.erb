@@ -1,0 +1,11 @@
+<div class="alert alert-light" role="alert">
+  <p class="text-capitalize"><%= @answer %></p>
+  <p class="fst-italic"><%= "- You" %></p>
+</div>
+
+<div class="alert alert-warning" role="alert">
+  <p><%= @response %></p>
+  <p class="fst-italic"><%= "- Your coach" %></p>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>
